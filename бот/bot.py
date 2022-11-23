@@ -4,13 +4,13 @@ import mysql.connector
 import smtplib
 from bs4 import BeautifulSoup
 #bot stats
-token="5664001754:AAEAqeF5haTX1kK3G_OVrcfbbjIYq6ypfUg"
+token=""
 bot=telebot.TeleBot(token)
-chat_id=581741288
+chat_id=
 #mysql connect
-cnx = mysql.connector.connect(user='root', password='',
-                              host='127.0.0.1',
-                              database='clinic')
+cnx = mysql.connector.connect(user='', password='',
+                              host='',
+                              database='')
 # function we need
 def insertChar(mystring, position, chartoinsert ):
     mystring   =  mystring[:position] + chartoinsert + mystring[position:] 
